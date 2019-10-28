@@ -1,0 +1,10 @@
+.start button{
+    width: 200px;
+    height: 60px;
+    font-size: 23px;
+}
+
+.start{
+    text-align: center;
+    margin-top: 100px;
+}

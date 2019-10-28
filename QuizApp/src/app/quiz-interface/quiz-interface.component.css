@@ -1,0 +1,29 @@
+.page,.question{
+    font-size: 20px;
+}
+
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+  .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+    border-color: dodgerblue !important;
+  }
+
+  .spinner-border
+  {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+  }
+
+  .btn-info:disabled{
+      background-color: gray;
+      border-color:grey;
+  }

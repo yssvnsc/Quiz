@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    color: white;
+}
+
+.ques{
+    font-size: 20px;
+}
+
+.ans{
+    font-size: 18px;
+}
+
+.score{
+    position: absolute;
+    right: 50px;
+    top: 29px;
+    font-size: 20px;
+}

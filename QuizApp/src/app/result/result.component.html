@@ -1,0 +1,27 @@
+<div class="card mt-4" style="margin-bottom: 20px;">
+  <div class="card-body">
+
+    <div class="header bg-info">
+      <div style="font-size: 30px;">Result</div>
+      <div class="score">Score:{{score}} / 10</div>
+    </div>
+    <div class="body mt-2">
+      <div class="quesAnsBox mt-3" *ngFor="let quiz of quizObject">
+          <div class="ques">
+            Q{{quiz.quesNo}}. {{quiz.ques}}
+          </div>
+          <div class="ans">
+             Ans: {{quiz.ans}}
+          </div>
+          <div class="ans" [ngStyle]="{'color':result[quiz.quesNo]==quiz.ans?'green':'red'}">
+             Your Ans: {{result[quiz.quesNo]}}
+
+             <i class="fa " [ngClass]="[result[quiz.quesNo]==quiz.ans? 'fa-check-circle' : 'fa-close']" 
+             [ngStyle]="{'color':result[quiz.quesNo]==quiz.ans?'green':'red'}"
+             style="font-size:20px;margin-left: 10px;">
+            </i>
+           </div>
+      </div>
+    </div>
+  </div>
+</div>
