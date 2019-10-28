@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: RASHMI
+Build-Jdk: 10.0.2
+Implementation-Title: quiz
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.quizapp
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/quiz
+Created-By: Maven Integration for Eclipse
+
